@@ -2,16 +2,26 @@
 
 /*Added Box Size reset*/
 
-html {
+/*html {
   box-sizing: border-box;
 }
 *, *:before, *:after {
   box-sizing: inherit;
-}
+}*/
 
 /*Added Background image working on responsive cover*/
 body {
 	background-image: url('chuttersnap-381963.jpg');
 	background-size: cover;
 	background-repeat: no-repeat;
+	text-align: center;
+	color: white;
+	font-family: 'Helvetica', 'Arial', sans-serif;
+
+}
+
+/*h1 styling needs work*/
+h1 {
+	margin-top: 10vh;
+
 }
