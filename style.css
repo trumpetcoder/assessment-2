@@ -2,5 +2,20 @@
 /*Checked and Working!*/
 
 body {
+	text-align: center;
+}
+
+
+
+#topRacer {
+	height: 5vh;
+	width: 5vw;
 	background: red;
+}
+
+#botRacer {
+	height: 5vh;
+	width: 5vw;
+	margin-top: 20vh;
+	background: blue;
 }
