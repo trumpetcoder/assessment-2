@@ -1,5 +1,17 @@
 /*Linked CSS for landing page*/
 
+/*Added Box Size reset*/
+
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+/*Added Background image working on responsive cover*/
 body {
-	background: grey;
+	background-image: url('chuttersnap-381963.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
 }
