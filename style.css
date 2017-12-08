@@ -5,6 +5,13 @@ body {
 	text-align: center;
 }
 
+/*Setting up media query for tablet, background goes to white on tablet size*/
+@media only screen and (min-width: 768px) {
+	body {
+		background: yellow;
+	}
+}
+
 
 /*Top racer racetrck added*/
 #topRacer {
@@ -31,3 +38,4 @@ body {
 	width: 5vw;
 	background: blue;
 }
+
