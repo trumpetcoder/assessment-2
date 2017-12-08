@@ -11,6 +11,8 @@ html {
 
 /*Added Background image working on responsive cover*/
 body {
+/*Added height 100vh to keep sizing on shrink*/
+	height: 100vh;
 	background-image: url('chuttersnap-381963.jpg');
 	background-size: cover;
 	background-repeat: no-repeat;
