@@ -1,7 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+	
+	<title>Racer-Landing-Page</title>
+
 	<meta charset="UTF-8">
+	
 	<!-- responsive design Checked and Working-->
 	<meta name="viewport" content="width=device-width">
 
@@ -12,28 +16,42 @@
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
 
 	<!-- CDN for Font-Awesome -->
-	<!-- <script src="https://use.fontawesome.com/e8021ebb7d.js"></script> -->	
+	<!-- <script src="https://use.fontawesome.com/e8021ebb7d.js"></script> -->
 	
-	<title>Racer-Landing-Page</title>
+	<!-- Bootstrap CDN  -->
+	<link rel='stylesheet' href='http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css'>
+ 	
+ 	<script src='http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js'></script>
 
 </head>
+
+<!-- Clone of https://www.trulia.com/sell -->
 <body>
 	
-	
-	<div>
-		<div class='heading'>
+	<!-- Added div containers for bootstrap -->
+	<div class='container'>
+		<div class='row'>
+			
+			<div class='col-sm-2'>
+			</div>
+			
+			<div class='col-sm-8'>
 			<h1>e-racer</h1> 
+			
 			<h2>How fast can you race?</h2>
-		</div>
+			
+			<!--Button Group needs to be center aligned  -->
+			<div class= 'btn-group-vertical' class= 'btn-group-justified'>
+				
+				<input type='text' class='form-control' placeholder='Enter your Racer Name'>
+				
+				<a role='button' class="btn btn-danger" href='game.html'>Press Here to Start Your Race</a>
+			
+			</div>
+			
+			<div class='col-sm-2'>
+			</div>
 		
-		<div class='inputs'>
-			
-			<input id='racer' type="text" placeholder='Enter your Racer Name'>
-			<form id='goto' action='game.html' method='get'>
-  			<button>To Start Your Race Click Here</button>
-			</form>
-			<!-- <button id='goto' href='game.html'>Press Here to Start Your Race</button> -->
-			
 		</div>
 	</div>
 
