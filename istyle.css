@@ -30,3 +30,25 @@ h1 {
 h2 {
 	margin-top: 5vh;
 }
+
+#racer {
+	height: 30px;
+	width: 274px;
+	padding-left: 10px;
+	padding-right: 10px;
+	border-radius: 5px;
+}
+
+#goto {
+	display:block;
+	margin: auto;
+	height: 30px;
+	width: 274px;
+	margin-top: 5vh;
+	background: red;
+	padding-left: 10px;
+	padding-right: 10px;
+	border-radius: 5px;
+	text-decoration: none;
+
+}
