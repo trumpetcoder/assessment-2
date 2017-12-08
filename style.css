@@ -16,13 +16,13 @@ body {
 /*Top racer racetrck added*/
 #topRacer {
 	margin-top: 20vh;
-	background: grey;
+	background: black;
 }
 
 /*Bottom racer racetrack added*/
 #botRacer {
 	margin-top: 20vh;
-	background: grey;
+	background: black;
 }
 
 /*Moved styling for P1*/
