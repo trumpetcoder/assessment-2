@@ -12,17 +12,20 @@ body {
 	}
 }
 
-
-/*Top racer racetrck added*/
-#topRacer {
-	margin-top: 20vh;
-	background: black;
+.container {
+	width: 100vw;
+	height: 100vh;
 }
 
-/*Bottom racer racetrack added*/
+.banner {
+	background: black;
+	color: white;
+
+}
+
+/*Bottom racer moved down*/
 #botRacer {
 	margin-top: 20vh;
-	background: black;
 }
 
 /*Moved styling for P1*/
@@ -30,6 +33,7 @@ body {
 	height: 5vh;
 	width: 5vw;
 	background: red;
+	position: absolute;
 }
 
 /*Moved styling for P2*/
@@ -37,5 +41,6 @@ body {
 	height: 5vh;
 	width: 5vw;
 	background: blue;
+	position: absolute;
 }
 
