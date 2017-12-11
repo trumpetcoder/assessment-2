@@ -12,20 +12,18 @@ $(document).keydown(function(move) {
     	// Movement functionality P1
         $('#p1').animate({left: '+=2vw'});
         // console.log($('#p1')[0].style.left);
-        
+
+        // Drilling down to find the distance p1 has moved setting a variable
         var goal = ($('#p1')[0].style.left);
        	
+       	// parsing the goal variable and setting it to a new usable variable
        	var parseGoal = parseInt(goal);
        	
        	// console.log(parseGoal);
 
+        // conditional to select p1 as winner
         if (parseGoal >= 93) {
 			alert('Player 1 is Winner');
-
-
-        
-
-        
 
        } 	
     }
@@ -38,15 +36,17 @@ $(document).keydown(function(move) {
     	// Movement functionality P2
         $('#p2').animate({left: '+=2vw' });
 
+        // Drilling down to find the distance p1 has moved setting a variable
         var goal = ($('#p2')[0].style.left);
 
+        // parsing the goal variable and setting it to a new usable variable
         var parseGoal = parseInt(goal);
 
         // console.log(parseGoal);
 
+         // conditional to select p1 as winner
    	    if (parseGoal >= 93) {
 			alert('Player 2 is Winner');	 
-
         
         }
         

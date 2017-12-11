@@ -11,35 +11,43 @@ html {
 
 /*Added Background image working on responsive cover*/
 body {
-/*Added height 100vh to keep sizing on shrink*/
+/*Background properties added*/
+	height: 100vh;
+	background-image: url('luis-perez-companc-314366.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	text-align: center;
+	font-family: 'Helvetica', 'Arial', sans-serif;
+}
+
+/*Added Media Query for landing page changes background image upon resizing*/
+@media only screen and (min-width: 768px) {
+	body {
 	height: 100vh;
 	background-image: url('chuttersnap-381963.jpg');
 	background-size: cover;
 	background-repeat: no-repeat;
 	text-align: center;
-	color: white;
 	font-family: 'Helvetica', 'Arial', sans-serif;
-
+	}
 }
 
-
-/*h1 styling needs work*/
+/*h1 styling*/
 span {
 	color: white;
 }
 
+/*Used Span and a class to style info*/
 .white {
 	color: white;
 }
 
-.white {
-	color: white;
-}
-
+/*Button margin for spacing*/
 .btn-group-vertical {
 	margin-top: 10vh;
 }
 
+/*Button margin for spacing*/
 .btn-danger {
 	margin-top: 5vh;
 }
